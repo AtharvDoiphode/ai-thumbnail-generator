@@ -1,111 +1,49 @@
-# Pixels - Animated SaaS App Template
+# AI Thumbnail Generator
 
-Pixels is a dark-themed SaaS template with smooth Framer Motion animations, crafted for startups and modern products that want a bold and unique look.
+AI Thumbnail Generator is a full-stack web application that allows users to generate high-quality thumbnails using AI. The platform provides a modern interface for content creators to create visually appealing thumbnails with customizable prompts and styles.
 
-**Live Preview:**
-https://pixels.prebuiltui.com/
+The application includes a secure authentication system, protected routes, and a thumbnail management system where users can generate, view, and delete their thumbnails.
 
----
+Built using a modern MERN-style architecture, the project integrates a React + TypeScript frontend with a Node.js and Express backend, while MongoDB is used for storing user data and generated thumbnails.
 
-## What’s Included
+## Features
 
-This package contains:
-
-- React Version
-- Structured component architecture
-- Production-ready responsive layouts
-- License file
-
-React version follows best practices and is optimized for production deployment.
-
----
-
-## Core Features
-
-- Dark theme
-- Framer Motion animations
-- Hero section
-- Feature showcase
-- Testimonials
-- Pricing plans
-- Responsive layout
-- Modern design
-
----
+* AI-powered thumbnail generation
+* User authentication (register, login, logout)
+* Protected API routes using middleware
+* Save generated thumbnails to database
+* View previously generated thumbnails
+* Delete thumbnails
+* Modern responsive UI
 
 ## Tech Stack
 
+Frontend:
 
-### React Version
+* React
+* TypeScript
+* Vite
+* CSS / modern UI components
 
-- React
-- Tailwind CSS
-- Modular component layout
+Backend:
 
+* Node.js
+* Express.js
+* MongoDB
+* Mongoose
 
----
+Other Tools:
 
-## Installation Guide
+* REST API architecture
+* Middleware-based authentication
+* Environment configuration using `.env`
 
+## How It Works
 
-### React
+1. Users create an account and log in.
+2. Authenticated users can generate thumbnails using AI.
+3. Generated thumbnails are stored in the database.
+4. Users can view their thumbnails or delete them anytime.
 
-1. Navigate to the `/reactjs` directory.
-2. Install dependencies:
+This project demonstrates full-stack development concepts including API design, authentication, database integration, and modern frontend architecture.
 
-   npm install
-
-3. Run development server:
-
-   npm run dev
-
-
----
-
-## License
-
-This template is licensed for single-project commercial use.
-
-Your purchase allows you to use Pixels in one end product
-intended for one business or client.
-
-You may NOT:
-
-- Resell or redistribute the source files
-- Upload to public repositories
-- Share with other developers or organizations
-- Use to create competing template products
-
-For agency usage, multi-project rights or white-label permissions,
-please contact:
-
-contact@prebuiltui.com
-
-See LICENSE.txt for full legal terms.
-
----
-## Support
-
-Support includes:
-
-- Installation guidance
-- Technical clarification
-- Minor issue resolution
-
-For assistance, contact:
-
-contact@prebuiltui.com
-
-Please include:
-
-- Template name
-- Version used (Next.js / React / HTML)
-- Node version (if applicable)
-- Clear description of the issue
-
----
-
-## © Copyright
-
-Pixels © 2026 PrebuiltUI  
-All rights reserved.
